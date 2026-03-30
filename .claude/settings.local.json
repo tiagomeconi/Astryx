@@ -10,7 +10,14 @@
       "Bash(node -e \"require\\(''''./package.json''''\\) && console.log\\(''''ok''''\\)\")",
       "Bash(npm run:*)",
       "Bash(npm install:*)",
-      "Bash(npx shadcn@latest init --defaults)"
+      "Bash(npx shadcn@latest init --defaults)",
+      "Bash(npx shadcn@latest add card badge input label textarea select accordion dialog sheet tabs separator avatar skeleton toast --yes)",
+      "Bash(node -e \"const crypto = require\\(''crypto''\\); console.log\\(crypto.randomBytes\\(32\\).toString\\(''base64''\\)\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(cp middleware.ts proxy.ts)",
+      "Bash(rm middleware.ts)",
+      "Bash(npx shadcn@latest add accordion --yes)",
+      "Bash(npx shadcn@latest add input label badge --yes)"
     ]
   }
 }
